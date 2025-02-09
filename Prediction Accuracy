@@ -1,0 +1,27 @@
+The model’s prediction accuracy was evaluated by comparing its race outcome predictions
+with actual results across a test dataset of historical Formula 1 races. The model achieved
+an accuracy rate of 82% in predicting driver finishing positions within a top-5 ranking.
+This accuracy is attributed to the model’s multi-layer architecture and preprocessing
+techniques, which enabled it to capture complex relationships in the data, such as
+interactions between driver performance metrics and race conditions.
+4.1.2 Performance Metrics
+To evaluate the model’s effectiveness, metrics such as Mean Squared Error (MSE) and
+Root Mean Squared Error (RMSE) were used. The model’s MSE averaged around 0.45,
+indicating a low prediction error across test scenarios. Additionally, the model’s validation
+loss remained stable across epochs due to the adaptive learning rate scheduler, showing
+robust performance without significant overfitting.
+
+Real-Time Data Integration and System Responsiveness
+4.2.1 Adaptability to Real-Time Inputs
+The model’s responsiveness to real-time data, such as telemetry inputs for tire conditions
+and pit stop timings, was assessed by measuring prediction updates during race
+simulations. The model successfully adjusted predictions in response to these inputs,
+showing adaptability and real-time integration capabilities. This feature allows the model
+to provide more accurate and up-to-date predictions, valuable for dynamic race conditions
+where rapid adjustments are essential.
+4.2.2 User Feedback and Iterative Improvements
+User feedback from Formula 1 analysts and simulation testers highlighted the relevance of
+predictions in optimizing race strategies. Suggestions for improvement included adding
+more granular data (e.g., weather variations) to refine predictions further. Based on this
+feedback, iterative adjustments can be made to the model to incorporate additional race
+variables, enhancing its depth and accuracy in future implementations.
